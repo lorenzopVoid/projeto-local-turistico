@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+body {
+  background-color: #F5F4F0;
+  color: #333;
+} 
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  align-items: flex-start;
+  margin: 88px auto 137px;
+}
+
+.titulo h1{
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  color: #1B1B1B;
+}
+.titulo h4 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #e1624f;
+  text-transform: uppercase;
+}
+
+#apresentacao {
+  margin-bottom: 40px;
+}
+
+#apresentacao img {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+#apresentacao p {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #333;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin: 40px 0;
+}
+
+.destinos {
+  margin: 64px 0;
+  color: #333;
+}
+
+.destinos h4 {
+  margin-bottom: 2px;
+}
+
+.destinos h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1B1B1B;
+}
+
+.locais-turisticos {
+  margin-bottom: 48px;
+}
+
+.locais-turisticos h3{
+  font-size: 28px;
+  color: #1B1B1B;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.locais-turisticos .tipo{
+  font-weight: bold;
+}
+
+.lista {
+  padding-left: 20px;
+  text-indent: -8px;
+  font-weight: 700;
+}
+
+ul li::marker {
+  font-size: smaller;
+  color: #333;
+}
+
+.azul {
+  color: #0C51A7;
+}
+
+.roxo {
+  color: #591B98;
+}
+
+.rosa {
+  color: #E5245E;
+}
+
+.laranja {
+  color: #E95E10;
+}
+
+.descricao {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+footer {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
+}
